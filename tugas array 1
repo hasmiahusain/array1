@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int nilai[5];
+    int h, hasil = 0;
+    for (int h = 0; h<5; h++)
+{
+    cout << "input nilai ke- " << (h+1) <<":";
+    cin >> nilai [h];
+    }
+  cout << endl;
+  for (int h = 0; h<5; h++)
+  {
+      hasil+=nilai[h];
+      cout << "hasil ke - " << h << " adalah : " <<hasil<<endl;
+    }
+    cout <<endl << "jumlah seluruh umum :" <<hasil<<endl;
+    return 0;
+}
